@@ -29,8 +29,22 @@ If you use this repository, please cite:
 
 ## 2. Training
 
+For training the attribute classifier, run the script:
 
+```python
+python attr_classifier.py
+```
 
-## 3. Evaluation
+## 3. Feature Extraction
+
+For extracting discriminative features, run the script:
+
+```python
+python feat_extract_LFWA.py
+```
+
+## 4. Evaluation
+
+For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods.
 
 ⚠️ Work in progress...
