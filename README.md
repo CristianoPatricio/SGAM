@@ -39,7 +39,7 @@ First of all, create a new conda environment with the required libraries contain
 conda create --name <env> --file requirements.txt
 ```
 
-For training the attribute classifier, run the script:
+For training the attribute classifier, run the following python script:
 
 ```bash
 python attr_classifier.py
@@ -47,7 +47,7 @@ python attr_classifier.py
 
 ## 3. Feature Extraction
 
-For extracting discriminative features, run the script:
+For extracting discriminative features, run the following python script:
 
 ```bash
 python feat_extract_LFWA.py
