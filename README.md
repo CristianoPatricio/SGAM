@@ -60,6 +60,7 @@ python LFWA/make_feat_file.py
 
 ## 5. Evaluation
 
-For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods. Having the discriminative features in the `.pickle` format, you only have to pass it to the ZSL methods.
+For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods. Having the discriminative features and attributes in the `.pickle` format, you only have to pass it to the ZSL methods.
+
 
 ⚠️ Work in progress...
