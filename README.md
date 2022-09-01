@@ -2,6 +2,10 @@
 
 This is the official implementation of the paper [Zero-shot face recognition: Improving the discriminability of visual face features using a Semantic-Guided Attention Model](https://www.sciencedirect.com/science/article/pii/S0957417422016803).
 
+### Abstract
+
+Zero-shot learning enables the recognition of classes not seen during training through the use of semantic information comprising a visual description of the class either in textual or attribute form. Despite the advances in the performance of zero-shot learning methods, most of the works do not explicitly exploit the correlation between the visual attributes of the image and their corresponding semantic attributes for learning discriminative visual features. In this paper, we introduce an attention-based strategy for deriving features from the image regions regarding the most prominent attributes of the image class. In particular, we train a Convolutional Neural Network (CNN) for image attribute prediction and use a gradient-weighted method for deriving the attention activation maps of the most salient image attributes. These maps are then incorporated into the feature extraction process of Zero-Shot Learning (ZSL) approaches for improving the discriminability of the features produced through the implicit inclusion of semantic information. For experimental validation, the performance of state-of-the-art ZSL methods was determined using features with and without the proposed attention model. Surprisingly, we discover that the proposed strategy degrades the performance of ZSL methods in classical ZSL datasets (AWA2), but it can significantly improve performance when using face datasets. Our experiments show that these results are a consequence of the interpretability of the dataset attributes, suggesting that existing ZSL datasets attributes are, in most cases, difficult to be identifiable in the image. Source code is available at https://github.com/CristianoPatricio/SGAM.
+
 <img src="https://github.com/CristianoPatricio/SGAM/blob/main/figures/sgam_model.jpg" width="600" style="text-align:center;">
 
 If you use this repository, please cite:
