@@ -2,6 +2,8 @@
 
 This is the official implementation of the paper [Zero-shot face recognition: Improving the discriminability of visual face features using a Semantic-Guided Attention Model](https://www.sciencedirect.com/science/article/pii/S0957417422016803).
 
+<img src="https://github.com/CristianoPatricio/SGAM/blob/main/figures/sgam_model.jpg" width="600" style="text-align:center;">
+
 If you use this repository, please cite:
 
 ```
@@ -24,5 +26,25 @@ If you use this repository, please cite:
 | Dataset | Link | Pretrained Models |
 | ----------- | ----------- | ------------- |
 | LFWA | [LFWA Dataset](https://drive.google.com/drive/folders/0B7EVK8r0v71pQ3NzdzRhVUhSams?resourcekey=0-Kpdd6Vctf-AdJYfS55VULA&usp=sharing) | [Pretrained models](https://socia-lab.di.ubi.pt/~cristiano_patricio/data/pretrained_models_LFWA.zip) |
+
+## 2. Training
+
+For training the attribute classifier, run the script:
+
+```python
+python attr_classifier.py
+```
+
+## 3. Feature Extraction
+
+For extracting discriminative features, run the script:
+
+```python
+python feat_extract_LFWA.py
+```
+
+## 4. Evaluation
+
+For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods.
 
 ⚠️ Work in progress...
