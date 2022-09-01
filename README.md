@@ -29,6 +29,12 @@ If you use this repository, please cite:
 
 ## 2. Training
 
+First of all, create a new conda environment with the required libraries contained in the `requirements.txt` file:
+
+```bash
+conda create --name <env> --file requirements.txt
+```
+
 For training the attribute classifier, run the script:
 
 ```python
@@ -43,8 +49,12 @@ For extracting discriminative features, run the script:
 python feat_extract_LFWA.py
 ```
 
-## 4. Evaluation
+## 4. Construct the dataset
 
-For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods.
+After having the features in the `.npy` format, it is necessary to convert them to the `.pickle` format.
+
+## 5. Evaluation
+
+For evaluating purposes, we refer the reader to the [this](https://github.com/CristianoPatricio/zsl-methods) github repository, which contains six state-of-the-art ZSL methods. Having the discriminative features in the `.pickle` format, you only have to pass it to the ZSL methods.
 
 ⚠️ Work in progress...
