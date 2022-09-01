@@ -19,10 +19,10 @@ If you use this repository, please cite:
 
 ---
 
-## 1. Datasets
+## 1. Data
 
-| Dataset | Link |
-| ----------- | ----------- |
-| LFWA | [LFWA Dataset](https://drive.google.com/drive/folders/0B7EVK8r0v71pQ3NzdzRhVUhSams?resourcekey=0-Kpdd6Vctf-AdJYfS55VULA&usp=sharing) |
+| Dataset | Link | Pretrained Models |
+| ----------- | ----------- | ------------- |
+| LFWA | [LFWA Dataset](https://drive.google.com/drive/folders/0B7EVK8r0v71pQ3NzdzRhVUhSams?resourcekey=0-Kpdd6Vctf-AdJYfS55VULA&usp=sharing) | [Pretrained models](https://socia-lab.di.ubi.pt/~cristiano_patricio/data/pretrained_models_LFWA.zip) |
 
 ⚠️ Work in progress...
