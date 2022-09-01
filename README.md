@@ -54,8 +54,8 @@ python feat_extract_LFWA.py
 After having the features in the `.npy` format, it is necessary to convert them to the `.pickle` format.
 
 ```bash
-python make_att_file.py
-python make_feat_file.py
+python LFWA/make_att_file.py
+python LFWA/make_feat_file.py
 ```
 
 ## 5. Evaluation
