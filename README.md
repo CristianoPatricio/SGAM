@@ -37,7 +37,7 @@ conda create --name <env> --file requirements.txt
 
 For training the attribute classifier, run the script:
 
-```python
+```bash
 python attr_classifier.py
 ```
 
@@ -45,13 +45,18 @@ python attr_classifier.py
 
 For extracting discriminative features, run the script:
 
-```python
+```bash
 python feat_extract_LFWA.py
 ```
 
 ## 4. Construct the dataset
 
 After having the features in the `.npy` format, it is necessary to convert them to the `.pickle` format.
+
+```bash
+python make_att_file.py
+python make_feat_file.py
+```
 
 ## 5. Evaluation
 
